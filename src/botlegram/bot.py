@@ -89,28 +89,27 @@ class Bot(Send):
 
 
     # https://core.telegram.org/bots/api#message
-    def msg_type(self, request):
+    def msg_type(self, rq_content):
 
         r"""
         For checking message types.
 
         Parameters:
 
-            1. request (Flask.request object)
+            1. rq_content(json object)
 
         Return: message type(str) or False
 
 
         """
 
-        content = request.json
         type_list = [
             'text', 'animation', 'audio', 'document', 'photo', 'sticker', \
             'video', 'video_note', 'voice', 'contact', 'dice', 'game', 'poll', \
             'venue', 'location', 'invoice', 'successful_payment']
         
         for type_ in type_list:
-            if type_ in content['message']:
+            if type_ in rq_content['message']:
                 return type_
         
         return False
