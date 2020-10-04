@@ -1,4 +1,4 @@
-Module Send
+Module send
 =========================
 
 .. automodule:: botlegram.utils.send
