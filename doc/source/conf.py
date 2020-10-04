@@ -16,7 +16,6 @@ sys.path.insert(0, os.path.abspath('../../src'))
 
 
 # -- Project information -----------------------------------------------------
-
 project = 'Botlegram'
 copyright = '2020, LaplaceTW'
 author = 'LaplaceTW'
@@ -26,6 +25,7 @@ release = '0.0.1'
 
 # -- General configuration ---------------------------------------------------
 master_doc = 'index'
+autodoc_member_order = 'bysource'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
