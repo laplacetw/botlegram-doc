@@ -5,10 +5,10 @@
 
 Botlegram: Telegram Bot Package for Python
 ==========================================
-- Source code: `laplacetw/botlegram <https://github.com/laplacetw/botlegram>`_
+- Release v0.0.2
 - Based on `Telegram Bot API <https://core.telegram.org/bots/api>`_.
+- Source code: `laplacetw/botlegram <https://github.com/laplacetw/botlegram>`_
 - Stay flexible and keep function naming consistent with the API.
-- Release v0.0.1
 
 It's good to use. 🙆‍♂️
 

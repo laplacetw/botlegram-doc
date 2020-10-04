@@ -8,10 +8,10 @@ r"""
                                 |_____|                       
 """
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 __title__ = 'botlegram'
 __description__ = 'Telegram Bot Package for Python'
-__url__ = ''
+__url__ = 'https://botlegram.readthedocs.io/'
 __author__ = 'LaplaceTW'
 __author_email__ = 'nicholas611469@gmail.com'
 __license__ = 'MIT'
